@@ -11,7 +11,7 @@ app.post("/analyze", async (req, res) => {
 
   try {
     const response = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=YOUR_API_KEY",
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDERej2MU-QqDplYomtnYbBMcR1CecCZIo",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -37,4 +37,5 @@ app.post("/analyze", async (req, res) => {
 
 // Run server
 app.listen(3000, () => console.log("Server running on port 3000"));
-k
+
+
