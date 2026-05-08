@@ -7,21 +7,25 @@
 </head>
 <body>
   <h1>Avto Salon</h1>
-  <div class="cars">
-    <div class="car">
-      <img src="malibu.jpg" alt="Chevrolet Malibu">
-      <h2>Chevrolet Malibu</h2>
-      <p>Narx: $25,000</p>
-      <p>Yil: 2022</p>
-      <p>Rang: Qora</p>
-      <p>Probeg: 15,000 km</p>
-      <p>Holati: Yangi</p>
-      <p>Gibrid: Yo‘q</p>
-      <p>Transmissiya: Avtomat</p>
-      <button onclick="analyze('Chevrolet Malibu')">AI Tahlil</button>
-    </div>
+
+  <div class="car-card">
+    <img src="images/malibu.jpg" alt="Chevrolet Malibu">
+    <h3>Chevrolet Malibu</h3>
+    <button class="analyze-btn" data-image="images/malibu.jpg">AI tahlili</button>
   </div>
-  <div id="result"></div>
+
+  <div class="car-card">
+    <img src="images/corolla.jpg" alt="Toyota Corolla">
+    <h3>Toyota Corolla</h3>
+    <button class="analyze-btn" data-image="images/corolla.jpg">AI tahlili</button>
+  </div>
+
+  <div class="car-card">
+    <img src="images/crv.jpg" alt="Honda CR-V Hybrid">
+    <h3>Honda CR-V Hybrid</h3>
+    <button class="analyze-btn" data-image="images/crv.jpg">AI tahlili</button>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
